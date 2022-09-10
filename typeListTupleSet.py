@@ -1,11 +1,11 @@
-#Examples for print,type,id
+# Examples for print,type,id
 
 print("Hi Jayakumar")
 s = "jayakumar"
 print(type(s))
 i = 10
 print(type(1))
-k=10
+k = 10
 print(id(s))
 print(id(i))
 print(id(k))
@@ -16,7 +16,7 @@ print(s[0:3])
 print(s[:6:2])
 print(s[-6:-1])
 
-#list/tuple/set/range
+# list/tuple/set/range
 
 x = [10, 20, 30]
 x.append(111)
@@ -32,7 +32,7 @@ print(y[1])
 
 z = {400, 500, 600}
 print(type(z))
-#print(z[1]) - Not possible
+# print(z[1]) - Not possible
 
 ab = range(5)
 for x in ab:

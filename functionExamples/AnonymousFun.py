@@ -41,10 +41,10 @@ print(ll3)
 
 # 3. Reduce fn:  (Need to import functools package)
 r = [10, 20, 30, 40, 90]
-r2 = reduce(lambda x, y: (x + y), r) # find sum
+r2 = reduce(lambda x, y: (x + y), r)  # find sum
 print(type(r2))
 print(r2)
 
-rr2 = reduce(lambda x, y: (x + y)/len(r), r) # find avg
+rr2 = reduce(lambda x, y: (x + y) / len(r), r)  # find avg
 print(type(rr2))
 print(rr2)

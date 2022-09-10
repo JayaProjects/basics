@@ -17,14 +17,15 @@ def prime(n):
         f = f + 1
         print("Given number {} is a prime number".format(n))
     else:
-        for x in range(4,n):
+        for x in range(4, n):
             if n % x == 0:
                 print("Given number {} is not a prime number".format(n))
-                f = f+1
+                f = f + 1
                 break
-    if f==0:
+    if f == 0:
         print("Given number {} is a prime number".format(n))
-prime(37)
 
+
+prime(37)
 
 # find finochi
