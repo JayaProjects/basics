@@ -1,9 +1,12 @@
+
+
 def printname(name):
     print(name)
 
 
 printname("jay")
 
+a = 10
 
 def sq(x):
     print("square of {} is {}".format(x, x * x))
@@ -94,3 +97,5 @@ def dis(**n):
 dis(a="jay", b="kay")
 dis(c="jaykum", d="vivzhi")
 dis(c=10, d=20, e=230)
+
+print(dir())
