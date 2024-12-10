@@ -15,4 +15,9 @@ jobs:
         python-version: '3.10'
     - name: Run a py script
       run: python functionExamples/basicFunctions.py
+      
+    - name: Run a second script  
+      run: python functionExamples/stringFuntions.py
+      
+      
     
